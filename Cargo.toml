@@ -1,0 +1,15 @@
+[package]
+name = "quinn-hyper"
+version = "0.1.0"
+authors = ["Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quinn = "0.2.0"
+hyper = "0.12.24"
+tokio = "0.1.15"
+failure = "0.1"
+
+[dev-dependencies]
+slog = "2"
+slog-term = "2"
